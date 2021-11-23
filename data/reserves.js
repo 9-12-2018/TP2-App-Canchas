@@ -68,4 +68,4 @@ async function deleteReserve(user){
     return res;
 }
 
-module.exports = {addReserve, getReservesByUser, getAllReserves, deleteReserve}
+module.exports = {addReserve, getReservesByUser, getAllReserves, deleteReserve, addReserveByEmail}
